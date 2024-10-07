@@ -1,0 +1,74 @@
+.landing{
+    background-image: url(./pexels-jessica-lewis-🦋-thepaintedsquare-858094.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+header{
+    display: flex;
+    
+}
+#logo{
+    flex: 3;
+    color: chartreuse;
+}
+nav{
+    flex: 2;
+    display: flex;
+    color: yellow;
+}
+nav a{
+    flex: 1;
+    color: yellow;
+}
+.maintext{
+    padding: 50px;
+    margin-top: 180px;
+    color: white;
+}
+.maintext div{
+    margin-top: 10px;
+}
+.tagline1{
+    color: red;
+    font-size: 40px;
+}
+.maintext button{
+    margin-top: 10px;
+    background-color: rgb(113, 242, 110);
+    color:white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+    background:linear-gradient(to right,rgb(129, 127, 127),rgb(156, 116, 116));
+    padding: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(115px,1fr));
+}
+table{
+    padding: 10px;
+}
+.menu tr{
+    display: flex;
+    margin-top: 10px;
+}
+.menu td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+#menu{
+    background:linear-gradient(to right,rgb(129, 127, 127),rgb(156, 116, 116));
+    justify-content: center;
+    color: rgb(7, 65, 238);
+    font-size: 30px;
+}
+th{
+    color: rgb(240, 20, 97);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
